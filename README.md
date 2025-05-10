@@ -17,9 +17,11 @@ Then, clone the repository
 git clone https://github.com/Lorenzo-Pigato/GDG2025.git && cd GDG2025
 ```
 
-install mlx-use
+setup venv, install mlx-use and dependencies
 ```
-pip install mlx-use
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mlx-use && pip install backend/macOS-use/
 ```
 
 run the program

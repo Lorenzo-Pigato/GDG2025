@@ -1,23 +1,28 @@
-# GDG2025
+# GDG2025  
 ## MemFlow
-MemFlow is a tool to detect your habitual workflows automatically - especially ones you may not be aware of - and lets you quickly get set up and on your way to productivity. It works by locally tracking your activity with ActivityWatcher and detecting patterns in your actions through pattern recognition and lets your replay your actions by employing an AI agent based on macOS-use.
 
-As of this moment, MemFlow is only available on macOS as of today, but it may easily be ported to other platforms by employing for example computer-use-OOTB (which was not chosen by us since it doesn't as of now support the gemini API).
+MemFlow is a productivity tool that automatically detects your habitual workflows — especially the ones you might not even realize — and helps you quickly get back into them.  
+It works by locally tracking your activity using [ActivityWatch](https://github.com/ActivityWatch/activitywatch?tab=readme-ov-file), identifying behavioral patterns, and replaying them with the help of an AI agent tailored for macOS users.
 
-### Installing
-First, install ActivityWatcher (link). For browser support, also install aw-watcher-web.
+> ⚠️ Currently, MemFlow is only available on **macOS**.  
+> It can be easily ported to other platforms, but we opted not to use `computer-use-OOTB` due to its current lack of support for the Gemini API.
+
+---
+
+### 🚀 Installation
+First, install [ActivityWatcher](https://github.com/ActivityWatch/activitywatch?tab=readme-ov-file). For browser support, also install [aw-watcher-web]().
 
 Then, clone the repository
-'''
+```
 git clone https://github.com/Lorenzo-Pigato/GDG2025.git && cd GDG2025
-'''
+```
 
 install mlx-use
-'''
+```
 pip install mlx-use
-'''
+```
 
 run the program
-'''
+```
 python3 main.py
-'''
+```

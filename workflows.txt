@@ -1,1 +1,10 @@
-1. Arc, go to chatgpt 2. Terminal - cd dev/GDG2025
+1. Start Coding Session: Terminal - cd ~/dev, Arc - https://github.com, VS Code, Spotify
+2. Morning Routine: Calendar, Mail, Reminders, Arc - https://chat.openai.com
+3. Meeting Setup: Calendar, Zoom, Arc - https://meet.google.com, Notes
+4. Social Media Check: Arc - https://twitter.com, Arc - https://linkedin.com, Arc - https://github.com/notifications
+5. Writing Session: Arc - https://notion.so, Spotify, Notes, Reminders
+6. Design Work: Figma, Arc - https://dribbble.com, Spotify, Terminal
+7. Research Mode: Arc - https://scholar.google.com, Arc - https://arxiv.org, Notes, Terminal
+8. Entertainment: Arc - https://youtube.com, Spotify, Messages, Arc - https://netflix.com
+9. Project Planning: Arc - https://trello.com, Arc - https://github.com, Notes, Calendar
+10. Communication Hub: Messages, Mail, Arc - https://chat.openai.com, Arc - https://meet.google.com

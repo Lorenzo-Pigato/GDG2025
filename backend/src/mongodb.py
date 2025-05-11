@@ -3,9 +3,10 @@ from pymongo.server_api import ServerApi
 import os
 from dotenv import load_dotenv
 
-uri = os.getenv("MONGO_URI")
-database_name = os.getenv("MONGO_DB")
-collection = os.getenv("MONGO_COLLECTION")
+uri = os.getenv("mongodb+srv://kevinpioabate:Isotopo12@basecluster.y7pj2wc.mongodb.net/?retryWrites=true&w=majority&appName=BaseCluster")
+database_name = os.getenv("workflow_db")
+collection = os.getenv("commands")
+
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))

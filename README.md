@@ -1,5 +1,7 @@
 # GDG2025  
 ## MemFlow
+![output](https://github.com/user-attachments/assets/7f89b465-ceb9-4e6b-ab1d-b0e7f98eeee4)
+
 
 MemFlow is a productivity tool that automatically detects your habitual workflows — especially the ones you might not even realize — and helps you quickly get back into them.  
 It works by locally tracking your activity using [ActivityWatch](https://github.com/ActivityWatch/activitywatch?tab=readme-ov-file), identifying behavioral patterns, and replaying them with the help of an AI agent tailored for macOS users.

@@ -26,5 +26,7 @@ pip install mlx-use && pip install backend/macOS-use/
 
 run the program
 ```
-python3 main.py
+swift run
 ```
+
+A tray icon will appear, allowing you to play the detected workflows.

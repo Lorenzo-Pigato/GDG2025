@@ -8,7 +8,7 @@ from pymining import seqmining
 import json
 
 # Carica il file JSON
-with open('secondDataset.json', 'r') as f:
+with open('data_clustering/secondDataset.json', 'r') as f:
     data = json.load(f)
 
 # Accedi al bucket specifico
@@ -51,5 +51,7 @@ sequences = df.groupby('timestamp')['app'].apply(list).tolist()
 frequent_patterns = seqmining.freq_seq_enum(sequences, min_support=2)
 
 print("\nPattern sequenziali frequenti:")
-for pattern, support in sorted(frequent_patterns, key=lambda x: -x[1]):
-    print(f"{pattern} -> support: {support}")
+sorted_patterns = sorted(frequent_patterns, key=lambda x: -x[1])
+with open('workflows.txt', 'w') as f:
+    patterns = [', '.join(pattern) for pattern, _ in sorted_patterns[:2]]
+    f.write(', '.join(patterns))

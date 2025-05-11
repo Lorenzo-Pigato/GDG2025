@@ -1,0 +1,1 @@
+1. Arc, go to chatgpt 2. Terminal - cd dev/GDG2025
